@@ -28,5 +28,5 @@ eureka:
 app:
    public-key: public_key.der
    private-key: private_key.der
-   login-time-limit-in-hour: ${LOGIN_TIME_LIMIT_IN_HOUR:1}
-   login-count-limit: ${LOGIN_COUNT_LIMIT:5}
+   login-time-limit-in-hour: 1
+   login-count-limit: 5
